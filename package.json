@@ -1,0 +1,25 @@
+{
+  "name": "just-a-theme",
+  "displayName": "just a theme",
+  "description": "This is just a theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dotportal/just-a-theme.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Just a theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Just-a-theme-color-theme.json"
+      }
+    ]
+  }
+}
