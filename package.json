@@ -2,7 +2,8 @@
   "name": "just-a-theme",
   "displayName": "just a theme",
   "description": "This is just a theme",
-  "version": "0.0.1",
+  "publisher": "dotPortal",
+  "version": "1.0.3",
   "engines": {
     "vscode": "^1.73.0"
   },
@@ -13,12 +14,20 @@
     "type": "git",
     "url": "https://github.com/dotportal/just-a-theme.git"
   },
+  "keywords": [
+    "themes",
+    "just a theme",
+    "dark",
+    "colors",
+    "minimal",
+    "minimalistic"
+  ],
   "contributes": {
     "themes": [
       {
         "label": "Just a theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Just-a-theme-color-theme.json"
+        "uiTheme": "just-a-theme",
+        "path": "./themes/dot-portal-color-theme.json"
       }
     ]
   }
