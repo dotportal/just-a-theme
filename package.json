@@ -3,7 +3,7 @@
   "displayName": "just a theme",
   "description": "This is just a theme",
   "publisher": "dotPortal",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "engines": {
     "vscode": "^1.73.0"
   },
